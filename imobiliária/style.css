@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+body{
+    background-image: url("assets/fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+    width: 100vw;
+    background-color: #afddfb;
+    padding: 5px;
+    justify-content: space-between;
+
+    img{
+        margin-left: auto;
+        width: 80px;
+    }
+    
+    nav{
+        margin: auto;
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 40px;
+            padding-bottom: 33px;
+        }
+        a:hover{
+            background-color: #1d80c1;
+        }
+    }
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.banner{
+    padding: 30px;
+    img{
+        border-radius: 5px;
+    }
+
+}
+
+.about{
+    padding: 30px;
+    img{
+        width: 300px;
+        border-radius: 5px;
+        padding-right: 30px;
+    }
+    p{
+        text-align: justify;
+        width: 500px;
+
+        span{
+            color: #1d80c1;
+            font-weight: bold;
+        }
+    }
+
+}
+
+.services{
+    padding: 50px;
+    flex-direction: column;
+    background-color: #1d80c1;
+    color: #ffffff;
+
+    p{
+        padding: 30px;
+        width: 700px;
+        text-align: center;
+        line-height: 30px;
+
+        span{
+            color:#fff81b ;
+            font-weight: bold;
+        }
+    }
+
+    ul{
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+        list-style: none;
+
+        li{
+            background-color: rgba(0, 0, 0, 0.473);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        li:hover{
+            background-color: #ffffff;
+            color: #1d80c1;
+            cursor: pointer;
+        }
+    }
+
+
+    
+}
+
+.brokers {
+    padding: 30px;
+    gap: 30px;
+}
+
+.brokers img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.brokers p {
+    text-align: justify;
+    width: 400px;
+}
+
+.brokers p span {
+    color: #1d80c1;
+    font-weight: bold;
+}
+
+
